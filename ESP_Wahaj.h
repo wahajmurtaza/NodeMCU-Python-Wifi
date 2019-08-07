@@ -53,10 +53,10 @@ bool CheckNewReq(){
   if (!client) {
     return 0;
   }
-
+/*
   while (client.connected() && !client.available()) {
     delay(1);
-  }
+  }*/           //to make data transfer fast
   String req = client.readStringUntil('\r');
   int addr_start = req.indexOf(' ');
   int addr_end = req.indexOf(' ', addr_start + 1);
