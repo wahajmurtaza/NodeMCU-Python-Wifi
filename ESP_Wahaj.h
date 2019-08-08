@@ -1,6 +1,8 @@
 /* ESP8266 TO PY: LOCAL
  * Written by Junicchi
  * https://github.com/Kebablord 
+ *Edited and modified to transfer full duplex
+ *https://github.com/wahajmurtaza/
 
  * MAP
  - start(ssid,password)---> Starts the connection with given username and password
